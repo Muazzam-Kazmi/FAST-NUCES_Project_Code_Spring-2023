@@ -1,0 +1,28 @@
+[23-Feb-2023 08:12:16 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_kaKLYCjV8WuIWe) The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.
+  thrown in /home/anomozco/projects.anomoz.com/ke/SWS Website/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[23-Feb-2023 09:16:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clear() in /home/anomozco/projects.anomoz.com/ke/SWS Website/thankyou.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/SWS Website/thankyou.php on line 2
+[23-Feb-2023 09:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clear() in /home/anomozco/projects.anomoz.com/ke/SWS Website/thankyou.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/SWS Website/thankyou.php on line 2
+[22-Mar-2023 15:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function cancel() on null in /home/anomozco/projects.anomoz.com/me/sws_website/cancelSubscription.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/me/sws_website/cancelSubscription.php on line 65
+[22-Mar-2023 15:11:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function cancel() on null in /home/anomozco/projects.anomoz.com/me/sws_website/cancelSubscription.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/me/sws_website/cancelSubscription.php on line 67
+[22-Mar-2023 15:11:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function cancel() on null in /home/anomozco/projects.anomoz.com/me/sws_website/cancelSubscription.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/me/sws_website/cancelSubscription.php on line 67
+[22-Mar-2023 15:11:31 UTC] PHP Fatal error:  Uncaught (Status 404) (Request req_gvwPwOlVsO5QVz) No such subscription: 'cs_test_a1706vkpKEjXebhn1hVct8W3TQmbYhDmiZueIeiKfdxz54XMvmjeRSCRiH'
+  thrown in /home/anomozco/projects.anomoz.com/me/sws_website/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[31-Mar-2023 14:53:35 UTC] PHP Fatal error:  Uncaught No API key provided.  (HINT: set your API key using "Stripe::setApiKey(<API-KEY>)".  You can generate API keys from the Stripe web interface.  See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+  thrown in /home/anomozco/projects.anomoz.com/me/sws_website/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 355
+[31-Mar-2023 14:59:14 UTC] PHP Fatal error:  Uncaught (Status 404) (Request req_PQQgKsR1i061ZQ) No such subscription: 'sub_1MrjHoHQjkfG1DwOUsmirHrF'
+  thrown in /home/anomozco/projects.anomoz.com/me/sws_website/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38

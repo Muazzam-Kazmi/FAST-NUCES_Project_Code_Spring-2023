@@ -1,0 +1,47 @@
+[02-Feb-2023 14:29:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/index.php on line 46
+[02-Feb-2023 14:31:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/login.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/login.php on line 63
+[02-Feb-2023 14:49:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/home.php on line 3
+[02-Feb-2023 14:50:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/home.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/home.php on line 3
+[02-Feb-2023 15:27:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/login.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/login.php on line 13
+[02-Feb-2023 16:06:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/includes/views/topmenu.php:9
+Stack trace:
+#0 /home/anomozco/projects.anomoz.com/ke/trushantMarketing/home.php(18): require()
+#1 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/includes/views/topmenu.php on line 9
+[02-Feb-2023 16:41:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/salesPersons.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/salesPersons.php on line 46
+[03-Feb-2023 12:35:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/anomozco/projects.anomoz.com/ke/trushantMarketing/salesPersons.php on line 178
+[08-Feb-2023 13:17:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/SWS marketing/viewSalesPerson.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/SWS marketing/viewSalesPerson.php on line 3
+[08-Feb-2023 13:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/SWS marketing/viewSalesPerson.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/SWS marketing/viewSalesPerson.php on line 3
+[08-Feb-2023 13:18:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function checkGlobalPermission() in /home/anomozco/projects.anomoz.com/ke/SWS marketing/viewSalesPerson.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/SWS marketing/viewSalesPerson.php on line 3
+[20-Feb-2023 13:07:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storeFile() in /home/anomozco/projects.anomoz.com/ke/SWS marketing/emailTemplate.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/anomozco/projects.anomoz.com/ke/SWS marketing/emailTemplate.php on line 10
+[11-Apr-2023 11:28:34 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/anomozco/projects.anomoz.com/me/SWS marketing/salesPersons.php on line 37
