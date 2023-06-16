@@ -1,0 +1,195 @@
+/* Reset Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+/* Header Styles */
+header {
+    background-color: #ddcdc2;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    
+}
+
+header .container1 {
+    display: flex;
+    justify-content: center; /*horizontally center(from left and right)*/
+    align-items: center; /*vertically center(from top and bottom)*/
+    padding: 20px 10px;
+}
+
+#logo h1{
+    color: #070707;
+    font-family: Garamond, serif;
+    font-size: 7rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#logo p{
+    font-family:'Brush Script MT', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+/*options list*/
+.nav {
+    position: sticky;
+    box-shadow: 0px 3px 5px rgba(49, 48, 46, 0.947);
+    display:flex;
+    top: 0;
+    background-color: #080707;
+    padding: 15px 10px;
+    justify-content: center; /*horizontally center(from left and right)*/
+    align-items: center; /*vertically center(from top and bottom)*/
+    width: 100%;
+    height: 6px;
+}
+@media screen and (max-width: 600px) {
+    .nav ul li {
+      margin-left: 10px;
+    }
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 60px;
+}
+
+nav ul li a {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #999;
+}
+
+
+/*-------------------------------------------------Account dropdown-------------------------------------------*/
+/* Dropdown Button */
+.account_dropdown_btn {
+    background-color: #020202;
+    color: peru;
+    border: none;
+    font-size: medium;
+    margin-left: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .account_dropdown_btn:hover, .account_dropdown_btn:focus {
+    color: #a8752f;
+}
+ 
+  /* Dropdown Content (Hidden by Default) */
+.account_dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 12px;
+  }
+  
+  /* Links inside the dropdown */
+  .account_dropdown_content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .account_dropdown_content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {
+    display:list-item;
+    margin-left: -18px;}
+
+
+/*----------------------------------------------------main----------------------------------------------------*/
+/* Main Styles */
+main {
+    margin-top: 3px;
+    background-color: #f7f7f7;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+main p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.artworks {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.artwork {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.artwork img {
+    max-width: 100%;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.artwork h2 {
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.artwork p {
+    margin: 10px;
+    font-size: 1rem;
+    color: #999;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
